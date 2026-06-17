@@ -1,0 +1,8 @@
+作業4 測試（應看到對應 tool 被呼叫）
+
+1. 現在幾點？                    → get_current_time
+2. 信義區有 YouBike 可以借嗎？   → get_youbike_by_district
+3. 現在幾點？大安區還有 YouBike 可以借嗎？ → 兩個 tool
+
+StackBlitz：YouBike 為公開 API 有時可連；OpenAI Chat 可能不穩，建議 Codespaces 跑 npm start。
+僅測 YouBike 工具：node --import dotenv/config -e "import('./tools/youbike_district.js').then(m=>m.youbikeDistrictTool.fn({district:'信義區'})).then(console.log)"

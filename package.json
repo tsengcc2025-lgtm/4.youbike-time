@@ -1,0 +1,20 @@
+{
+  "name": "homework4-youbike-time",
+  "version": "1.0.0",
+  "description": "作業4：YouBike 區域查詢 + 時間工具",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.4.3",
+    "dotenv": "^17.4.2",
+    "openai": "^6.38.0",
+    "ora": "^9.4.0",
+    "zod": "^4.4.3"
+  }
+}
