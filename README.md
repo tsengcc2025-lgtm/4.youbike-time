@@ -2,10 +2,6 @@
 
 [Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/tsengcc2025-lgtm/4.youbike-time)
 
-~/projects/stackblitz-starters-cxeu1arx 19s
-❯ npm start
-
-> homework4-youbike-time@1.0.0 start
 > node main.js
 
 YouBike + 時間助手 — 輸入 exit 結束
